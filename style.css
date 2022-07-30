@@ -1,0 +1,49 @@
+form {
+	width: 300px;
+	background-color: #ffffff;
+	padding: 24px;
+	text-align: left;
+	font-weight: 400;
+	margin-left: auto;
+	margin-right: auto;
+}
+div {
+}
+h1 {
+	text-align: center;
+}
+textarea:hover {
+	border: 1px solid;
+	border-color: rgb(0, 0, 0);
+	padding-top: 5;
+}
+body {
+	background-color: rgb(255, 221, 0);
+}
+
+.input {
+	width: 100%;
+}
+.label {
+	margin-bottom: 5px;
+}
+.textarea {
+	margin-top: 10px;
+	outline: none;
+}
+.button {
+	padding: 5px 20px;
+	background-color: rgb(0, 0, 0);
+	border: 0;
+	padding: 10px;
+	color: #ffffff;
+	width: 100%;
+	text-align: center;
+	padding-left: -10px;
+	margin-top: 10px;
+}
+#in {
+	border: none;
+	outline: none;
+	border-bottom: 1px solid grey;
+}

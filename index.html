@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Create Sign Up Form</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<h1>Signup</h1>
+		<form>
+			
+			<div>
+				<br />Full name:<br />
+				<input id="in" class="input" type="text" name="Full-name" Value="Full Name" placeholder="" autofocus/>
+			</div>
+
+			<div>
+				<br />Email:<br />
+				<input id="in" class="input" type="email" name="Email" Value="" />
+			</div>
+
+			<div>
+				<br />Password:<br />
+				<input id="in" class="input" type="password" name="Password" Value="" />
+			</div>
+
+			<div>
+				<br />Confirm Password:<br />
+				<input id="in" class="input" type="password" name="Password" Value=""/>
+			</div>
+			<div>
+				<br/>Gender:<br/>
+				<input type="radio" name="Male" Value="Male ">Male</input>
+				<input type="radio" name="Female" Value="Female ">Female</input>
+				<input type="radio" name="Other" Value="Other">Other</input>
+			</div>
+			<div>
+				<div class="label">
+					<label >Security Question:</label><br>
+				</div>
+               
+			   <select >
+				   <option name="first-pet-name">What was the name of your first pet ?</option>
+				   <option name="first-job">What was your first job?</option>
+				   <option name="nick-name">What is your nickname ?</option>
+			   </select>
+			</div>
+			<div class="textarea">
+				<textarea class="input" name="textarea" rows="6" cols="30"></textarea>
+			</div>
+			<div>
+				<input type="checkbox" name="Terms" Value="Terms & Condition "> I agree to accept the terms and conditions</input>
+			</div>
+			<div>
+				<input class="button" type="submit" name="" value="Register"> 
+			</div>
+		</form>
+	</body>
+</html>
